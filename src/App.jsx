@@ -1,13 +1,13 @@
+import ButtonSlider from "./ui/ButtonSlider";
 
 
 function App() {
-
-
   return (
-    <div>
-      <div className=" bg-slate-500">hjkdhdskhjk</div>
+    <div className=" container xl:max-w-screen-xl bg-slate-200 h-screen p-4 ">
+      <ButtonSlider/>
+      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
